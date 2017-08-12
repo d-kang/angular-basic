@@ -1,0 +1,9 @@
+<!-- <div>{{$ctrl.var}}</div>
+<div>{{$ctrl.add()}}</div> -->
+<div>
+  Enter Your Name
+  <input type='text' ng-model="$ctrl.name"></input>
+  {{$ctrl.name}}
+</div>
+<button type='button' ng-click="$ctrl.add($ctrl.name)">press me</button>
+<demo first-name="$ctrl.names"></demo>
